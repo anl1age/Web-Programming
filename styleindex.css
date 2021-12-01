@@ -1,0 +1,460 @@
+body {
+    background-color: #011724;
+    color:white;
+    font-family: 'Gilroy';
+    src: local('Gilroy Bold'), local('Gilroy-Bold'),
+        url('Gilroy-Bold.woff2') format('woff2'),
+        url('Gilroy-Bold.woff') format('woff'),
+        url('Gilroy-Bold.ttf') format('truetype');
+    font-weight: 700;
+    font-size: 24px;
+    font-style: normal;
+}
+.infoabout {
+    font-size:15px;
+    text-align:left;
+    margin: 3px;
+    position: relative;
+}
+.menu {
+    padding:0;
+    width:100%;
+    height: 60px;
+    color:white;
+    background-color:rgba(0, 0, 0, .4);
+    opacity:1;
+    font-size: 33px;
+    position:fixed;
+    top:0;
+    text-align: center;
+    z-index: 3;
+}
+.back {
+    width: 100%;
+    z-index: 1;
+    position	: relative;
+}
+nav {
+    display: flex;
+    justify-content: center;
+}
+
+ul {
+    list-style: none;
+    margin: 0;
+    padding-left: 0;
+}
+
+li {
+    margin-top: 10px;
+    color: #fff;
+    background:#011724;
+    border-radius: 25px;
+    display: block;
+    float: left;
+    padding: 20px;
+    position: relative;
+    text-decoration: none;
+    font-size: 20px;
+    transition-duration: 0.5s;
+}
+
+li a {
+    color: #fff;
+}
+
+li:hover {
+    background: #01101a;
+}
+ul li:hover > ul,
+ul li ul:hover {
+    visibility: visible;
+    opacity: 1;
+    display: block;
+}
+
+ul li ul li {
+    clear: both;
+    width: 100%;
+}
+  a{
+      text-decoration: none;
+  }
+  .txtmenu{
+    font-family: 'Audiowide';
+    font-style: normal;
+    font-weight: 400;
+    src: url('../fonts/audiowide-v9-latin-regular.eot'); 
+    src: local(''),
+         url('../fonts/audiowide-v9-latin-regular.eot?#iefix') format('embedded-opentype'), 
+         url('../fonts/audiowide-v9-latin-regular.woff2') format('woff2'), 
+         url('../fonts/audiowide-v9-latin-regular.woff') format('woff'), 
+         url('../fonts/audiowide-v9-latin-regular.ttf') format('truetype'), 
+         url('../fonts/audiowide-v9-latin-regular.svg#Audiowide') format('svg'); 
+  }
+.info {
+    font-size: 45px;
+}
+#button1 {
+    border-radius: 25px;
+    border: #011724 1px solid;
+    height:30px;
+    width:40px;
+    font-size: medium;
+    background-color: #011724;
+    color:white;
+    z-index: 1;
+    font-family: 'Gilroy';
+    src: local('Gilroy Bold'), local('Gilroy-Bold'),
+        url('Gilroy-Bold.woff2') format('woff2'),
+        url('Gilroy-Bold.woff') format('woff'),
+        url('Gilroy-Bold.ttf') format('truetype');
+}
+#button1:hover {
+    background-color: #01101a;
+    transition-duration: 0.5s;
+}
+#button2 {
+    border-radius: 25px;
+    border: #011724 1px solid;
+    height:30px;
+    width:40px;
+    font-size: medium;
+    background-color: #011724;
+    color:white;
+    font-family: 'Gilroy';
+    src: local('Gilroy Bold'), local('Gilroy-Bold'),
+        url('Gilroy-Bold.woff2') format('woff2'),
+        url('Gilroy-Bold.woff') format('woff'),
+        url('Gilroy-Bold.ttf') format('truetype');
+}
+#button2:hover {
+    background-color: #01101a;
+    transition-duration: 0.5s;
+}
+#button3 {
+    border-radius: 25px;
+    border: #011724 1px solid;
+    height:30px;
+    width:40px;
+    font-size: medium;
+    background-color: #011724;
+    color:white;
+    font-family: 'Gilroy';
+    src: local('Gilroy Bold'), local('Gilroy-Bold'),
+        url('Gilroy-Bold.woff2') format('woff2'),
+        url('Gilroy-Bold.woff') format('woff'),
+        url('Gilroy-Bold.ttf') format('truetype');
+}
+#button3:hover {
+    background-color: #01101a;
+    transition-duration: 0.5s;
+}
+#button4 {
+    border-radius: 25px;
+    border: #011724 1px solid;
+    height:30px;
+    width:40px;
+    font-size: medium;
+    background-color: #011724;
+    color:white;
+    font-family: 'Gilroy';
+    src: local('Gilroy Bold'), local('Gilroy-Bold'),
+        url('Gilroy-Bold.woff2') format('woff2'),
+        url('Gilroy-Bold.woff') format('woff'),
+        url('Gilroy-Bold.ttf') format('truetype');
+}
+#button4:hover {
+    background-color: #01101a;
+    transition-duration: 0.5s;
+}
+#button5 {
+    border-radius: 25px;
+    border: #011724 1px solid;
+    height:30px;
+    width:40px;
+    font-size: medium;
+    background-color: #011724;
+    color:white;
+    font-family: 'Gilroy';
+    src: local('Gilroy Bold'), local('Gilroy-Bold'),
+        url('Gilroy-Bold.woff2') format('woff2'),
+        url('Gilroy-Bold.woff') format('woff'),
+        url('Gilroy-Bold.ttf') format('truetype');
+}
+#button5:hover {
+    background-color: #01101a;
+    transition-duration: 0.5s;
+}
+.number {
+    margin-top:100px;
+    margin-left: 50px ;
+    width: 100px;
+    height:100px;
+}
+cite {
+    font-style: normal;
+}
+.info {
+    margin-left: 20px ;
+    font-size: 40px;
+    vertical-align: 35px;
+}
+.lang {
+    height:55px;
+    width: 55px;
+}
+.txtlang {
+    font-size: 56px;
+    margin-left: 75px;
+    vertical-align: 5px;
+}
+#more1 {
+    display: none; 
+    font-size: 15px;
+    line-height: 40px;
+    font-family: 'Montserrat', sans-serif;
+}
+#dots1 {
+    color:#011724;
+}
+#more2 {
+    display: none;
+    font-size: 15px;
+    line-height: 40px;
+    font-family: 'Montserrat', sans-serif;
+}
+#dots2 {
+    color:#011724;
+}
+#more3 {
+    display: none;
+    font-size: 15px;
+    line-height: 40px;
+    font-family: 'Montserrat', sans-serif;
+}
+#dots3 {
+    color:#011724;
+}
+#more4 {
+    display: none;
+    font-size: 15px;
+    line-height: 40px;
+    font-family: 'Montserrat', sans-serif;
+}
+#dots4 {
+    color:#011724;
+}
+#more5 {
+    display: none;
+    font-size: 15px;
+    line-height: 40px;
+    font-family: 'Montserrat', sans-serif;
+}
+#dots5 {
+    color:#011724;
+}
+.tglogo {
+    width: 70px;
+    height: 40px;
+    vertical-align: 25px;
+}
+.buttondownload {
+    margin-left: 25px;
+    vertical-align: 390px;
+    border-radius: 25px;
+    border: white 1px solid;
+    height: 60px;
+    width:240px;
+    font-size: 35px;
+    background-color: #011724;
+    color:white;
+    font-family: 'Gilroy';
+    src: local('Gilroy Bold'), local('Gilroy-Bold'),
+        url('Gilroy-Bold.woff2') format('woff2'),
+        url('Gilroy-Bold.woff') format('woff'),
+        url('Gilroy-Bold.ttf') format('truetype');
+}
+.buttondownload:hover {
+    background-color: #01101a;
+    transition-duration: 0.5s;
+}
+.tgpc {
+    margin-left: 1000px;
+    width: 500px;
+    height:500px
+}
+.flyer {
+    width:60px;
+    height:60px;
+}
+.txttg {
+    vertical-align: 17px;
+    text-decoration: none;
+    color:white;
+}
+.pre {
+    font-size: 15px;
+    line-height: 40px;
+    font-family: 'Montserrat', sans-serif;
+}
+.hinfo1 {
+    position:relative;
+}
+.descr1 {
+    opacity: 0;
+    background-color: #01101a;
+    border: #01101a 1px solid;
+    border-radius: 25px;
+    margin-top:40px;
+    margin-bottom: 20px;
+    padding-top: 30px;
+    padding-left: 30px;
+    margin-left: 200px;
+    margin-right: 200px;
+    height: 300px;
+    box-shadow: 0px 0px 80px #01090f;
+    transition: 1s;
+}
+.descr1 > .hinfopic1 {
+    width:230px;
+    height: 200px;
+    margin-left: 1050px;
+    margin-top: -200px;
+}
+.hinfo1:hover .descr1 {
+    display: block;
+    opacity:1;
+    transition: 1s;
+}
+.hinfo2 {
+    position:relative;
+}
+.descr2 {
+    opacity: 0;
+    background-color: #01101a;
+    border: #01101a 1px solid;
+    border-radius: 25px;
+    margin-top:40px;
+    margin-bottom: 20px;
+    padding-top: 30px;
+    padding-left: 30px;
+    margin-left: 200px;
+    margin-right: 200px;
+    height: 300px;
+    box-shadow: 0px 0px 80px #01090f;
+    transition: 1s;
+}
+.descr2 > .hinfopic2 {
+    width:170px;
+    height:170px;
+    margin-left: 1100px;
+    margin-top: -190px;
+}
+.hinfo2:hover .descr2 {
+    display: block;
+    opacity:1;
+    transition: 1s;
+}
+.hinfo3 {
+    position:relative;
+}
+.descr3 {
+    opacity: 0;
+    background-color: #01101a;
+    border: #01101a 1px solid;
+    border-radius: 25px;
+    margin-top:40px;
+    margin-bottom: 20px;
+    padding-top: 30px;
+    padding-left: 30px;
+    margin-left: 200px;
+    margin-right: 200px;
+    height: 300px;
+    box-shadow: 0px 0px 80px #01090f;
+    transition: 1s;
+}
+.descr3 > .hinfopic3 {
+    margin-left: 970px;
+    margin-top: -320px;
+}
+.hinfo3:hover .descr3 {
+    display: block;
+    opacity:1;
+    transition: 1s;
+}
+.hinfo4 {
+    position:relative;
+    z-index:1 ;
+}
+.descr4 {
+    opacity: 0;
+    background-color: #01101a;
+    border: #01101a 1px solid;
+    border-radius: 25px;
+    margin-top:40px;
+    margin-bottom: 20px;
+    padding-top: 30px;
+    padding-left: 30px;
+    margin-left: 200px;
+    margin-right: 200px;
+    height: 300px;
+    box-shadow: 0px 0px 80px #01090f;
+    transition: 1s;
+}
+.descr4 > .hinfopic4 {
+    margin-left: 940px;
+    margin-top: -290px;
+}
+.hinfo4:hover .descr4 {
+    display: block;
+    opacity:1;
+    transition: 1s;
+}
+
+.txtonpic {
+    z-index:2;
+    position: absolute;
+    top:200px;
+    margin-left: 390px;
+    line-height: 30px;
+}
+.maintextlower {
+    font-size:65px;
+}
+.coder {
+    margin-left: 150px;
+    width: 350px;
+    height:350px;
+}
+.morepre {
+    margin-left: 500px;
+    margin-top: -300px;
+    font-size: 55px;
+    line-height: 100px;
+    font-family: 'Montserrat', sans-serif;
+}
+.mail img {
+    width: 520px;
+    height: 300px;
+}
+.numberph img{
+    width:180px;
+    height:180px;
+    vertical-align: 60px;
+}
+#workfinderid {
+    margin-left: 40px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
